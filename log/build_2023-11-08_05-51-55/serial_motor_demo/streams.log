@@ -1,0 +1,26 @@
+[4.051s] Invoking command in '/home/ubuntu/robot_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws/build/serial_motor_demo/prefix_override:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[4.991s] running develop
+[5.555s] running egg_info
+[5.556s] creating serial_motor_demo.egg-info
+[5.556s] writing serial_motor_demo.egg-info/PKG-INFO
+[5.557s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[5.558s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[5.558s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[5.559s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[5.563s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[5.681s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[5.684s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[5.879s] running build_ext
+[5.880s] Creating /home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages/site.py
+[5.887s] Creating /home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[5.890s] Installing driver script to /home/ubuntu/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.891s] Installing gui script to /home/ubuntu/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.892s] 
+[5.893s] Installed /home/ubuntu/robot_ws/build/serial_motor_demo
+[5.894s] running install_data
+[5.894s] creating /home/ubuntu/robot_ws/install/serial_motor_demo/share/ament_index
+[5.894s] creating /home/ubuntu/robot_ws/install/serial_motor_demo/share/ament_index/resource_index
+[5.895s] creating /home/ubuntu/robot_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[5.896s] copying resource/serial_motor_demo -> /home/ubuntu/robot_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[5.897s] copying package.xml -> /home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo
+[6.019s] Invoked command in '/home/ubuntu/robot_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws/build/serial_motor_demo/prefix_override:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/serial_motor_demo/build --no-deps install_data

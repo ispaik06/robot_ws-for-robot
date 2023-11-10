@@ -1,0 +1,1 @@
+/home/ubuntu/robot_ws/build/sasa_bot/ament_cmake_core/sasa_botConfig.cmake

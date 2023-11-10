@@ -1,0 +1,151 @@
+[5.016s] Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/ubuntu/robot_ws/build/ydlidar_sdk -- -j4 -l4
+[5.335s] [ 42%] Built target ydlidar_sdk
+[5.514s] [ 47%] Built target sdm_test
+[5.565s] [ 52%] Built target tri_test
+[5.579s] [ 57%] Built target gs_ota
+[5.627s] [ 61%] Built target et_test
+[5.692s] [ 66%] Built target tri_restart
+[5.749s] [ 71%] Built target tof_test
+[5.755s] [ 76%] Built target gs_test
+[5.823s] [ 80%] Built target tri_and_gs_test
+[5.866s] [ 85%] Built target tmini_test
+[5.913s] [ 90%] Built target lidar_c_api_test
+[5.936s] [ 95%] Built target scl_test
+[5.958s] [100%] Built target tea_test
+[7.127s] Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ubuntu/robot_ws/build/ydlidar_sdk -- -j4 -l4
+[8.182s] Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/ubuntu/robot_ws/build/ydlidar_sdk
+[8.301s] -- Install configuration: ""
+[8.309s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/base/datatype.h
+[8.310s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/base/locker.h
+[8.311s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/base/thread.h
+[8.311s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/base/timer.h
+[8.320s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/base/typedef.h
+[8.325s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/base/utils.h
+[8.326s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/base/v8stdint.h
+[8.327s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h
+[8.337s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[8.338s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[8.339s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[8.339s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[8.340s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[8.349s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[8.355s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/math/angles.h
+[8.356s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[8.356s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[8.357s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[8.362s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/network/StatTimer.h
+[8.363s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/serial/common.h
+[8.363s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/serial/serial.h
+[8.364s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[8.364s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[8.365s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[8.366s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/CYdLidar.h
+[8.384s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[8.385s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/GSLidarDriver.h
+[8.386s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/SDMLidarDriver.h
+[8.387s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h
+[8.387s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[8.401s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[8.405s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[8.406s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/src/filters/StrongLightFilter.h
+[8.406s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/include/ydlidar_config.h
+[8.407s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[8.407s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[8.408s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[8.409s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[8.410s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[8.411s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[8.411s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK
+[8.412s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[8.413s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[8.414s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[8.414s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[8.415s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[8.415s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[8.415s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[8.416s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[8.429s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[8.460s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[8.461s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[8.461s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[8.462s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[8.463s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[8.485s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[8.486s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[8.486s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[8.487s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[8.488s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[8.495s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[8.496s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[8.497s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[8.498s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[8.498s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[8.499s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[8.499s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[8.500s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[8.510s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[8.511s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[8.511s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[8.512s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[8.513s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[8.514s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[8.515s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[8.515s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[8.516s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[8.518s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[8.526s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[8.527s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[8.527s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[8.528s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[8.529s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[8.530s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[8.531s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[8.532s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[8.532s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[8.533s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[8.533s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[8.534s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[8.535s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[8.536s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[8.536s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[8.537s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[8.537s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[8.545s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[8.546s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[8.547s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[8.547s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[8.548s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[8.549s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[8.550s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[8.551s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[8.552s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[8.552s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[8.553s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[8.554s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[8.554s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[8.555s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[8.555s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[8.555s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[8.556s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[8.556s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[8.557s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[8.557s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[8.558s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[8.558s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[8.559s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[8.559s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[8.560s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[8.568s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/startup/initenv.sh
+[8.569s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/et_test
+[8.582s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/gs_ota
+[8.582s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/gs_test
+[8.583s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/scl_test
+[8.583s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/sdm_test
+[8.584s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/tea_test
+[8.585s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/tmini_test
+[8.586s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/tof_test
+[8.588s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/tri_and_gs_test
+[8.588s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/tri_restart
+[8.590s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/tri_test
+[8.591s] -- Up-to-date: /home/ubuntu/robot_ws/install/ydlidar_sdk/bin/lidar_c_api_test
+[8.602s] Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ubuntu/robot_ws/build/ydlidar_sdk

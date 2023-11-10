@@ -1,0 +1,67 @@
+[3.417s] Invoking command in '/home/ubuntu/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/robot_ws/src/sasa_bot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/sasa_bot
+[3.829s] -- The C compiler identification is GNU 9.4.0
+[4.274s] -- The CXX compiler identification is GNU 9.4.0
+[4.312s] -- Check for working C compiler: /usr/bin/cc
+[4.902s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.907s] -- Detecting C compiler ABI info
+[5.335s] -- Detecting C compiler ABI info - done
+[5.400s] -- Detecting C compile features
+[5.401s] -- Detecting C compile features - done
+[5.416s] -- Check for working CXX compiler: /usr/bin/c++
+[5.898s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.902s] -- Detecting CXX compiler ABI info
+[6.332s] -- Detecting CXX compiler ABI info - done
+[6.380s] -- Detecting CXX compile features
+[6.383s] -- Detecting CXX compile features - done
+[6.408s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.574s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.575s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.923s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.488s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.520s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.524s] -- Added test 'lint_cmake' to check CMake code style
+[8.528s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.544s] -- Added test 'xmllint' to check XML markup files
+[8.558s] -- Configuring done
+[8.568s] -- Generating done
+[8.579s] -- Build files have been written to: /home/ubuntu/robot_ws/build/sasa_bot
+[8.630s] Invoked command in '/home/ubuntu/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/robot_ws/src/sasa_bot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/sasa_bot
+[8.638s] Invoking command in '/home/ubuntu/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/sasa_bot -- -j4 -l4
+[8.858s] Invoked command in '/home/ubuntu/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/sasa_bot -- -j4 -l4
+[9.019s] Invoking command in '/home/ubuntu/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/sasa_bot
+[9.081s] -- Install configuration: ""
+[9.084s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config
+[9.086s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config/view_bot.rviz
+[9.088s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config/my_controllers.yaml
+[9.091s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config/gazebo_params.yaml
+[9.093s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config/empty.yaml
+[9.095s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description
+[9.097s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/ros2_control.xacro
+[9.100s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/inertial_macros.xacro
+[9.102s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/depth_camera.xacro
+[9.104s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/robot_core.xacro
+[9.107s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/robot.urdf.xacro
+[9.109s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/camera.xacro
+[9.111s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/gazebo_control.xacro
+[9.116s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/lidar.xacro
+[9.118s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/launch
+[9.120s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/launch/rsp.launch.py
+[9.122s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/launch/launch_sim.launch.py
+[9.125s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/worlds
+[9.126s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/worlds/empty.world
+[9.129s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/ament_index/resource_index/package_run_dependencies/sasa_bot
+[9.133s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/ament_index/resource_index/parent_prefix_path/sasa_bot
+[9.136s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/environment/ament_prefix_path.sh
+[9.139s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/environment/ament_prefix_path.dsv
+[9.142s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/environment/path.sh
+[9.145s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/environment/path.dsv
+[9.148s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.bash
+[9.151s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.sh
+[9.153s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.zsh
+[9.156s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.dsv
+[9.159s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.dsv
+[9.163s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/ament_index/resource_index/packages/sasa_bot
+[9.167s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/cmake/sasa_botConfig.cmake
+[9.170s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/cmake/sasa_botConfig-version.cmake
+[9.172s] -- Installing: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.xml
+[9.191s] Invoked command in '/home/ubuntu/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/sasa_bot

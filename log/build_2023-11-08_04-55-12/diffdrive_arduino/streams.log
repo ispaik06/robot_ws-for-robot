@@ -1,0 +1,88 @@
+[0.672s] Invoking command in '/home/ubuntu/robot_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/robot_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/robot_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/diffdrive_arduino
+[0.913s] -- The C compiler identification is GNU 9.4.0
+[1.136s] -- The CXX compiler identification is GNU 9.4.0
+[1.153s] -- Check for working C compiler: /usr/bin/cc
+[1.445s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.448s] -- Detecting C compiler ABI info
+[1.744s] -- Detecting C compiler ABI info - done
+[1.782s] -- Detecting C compile features
+[1.783s] -- Detecting C compile features - done
+[1.792s] -- Check for working CXX compiler: /usr/bin/c++
+[2.112s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.115s] -- Detecting CXX compiler ABI info
+[2.448s] -- Detecting CXX compiler ABI info - done
+[2.488s] -- Detecting CXX compile features
+[2.489s] -- Detecting CXX compile features - done
+[2.513s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.637s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.637s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.601s] -- Found serial: 1.2.1 (/home/ubuntu/robot_ws/install/serial/share/serial/cmake)
+[3.623s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[3.977s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.065s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.759s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.026s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.711s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.879s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[8.414s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.436s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.440s] -- Looking for pthread.h
+[8.746s] -- Looking for pthread.h - found
+[8.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.052s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.052s] -- Looking for pthread_create in pthreads
+[9.316s] -- Looking for pthread_create in pthreads - not found
+[9.317s] -- Looking for pthread_create in pthread
+[9.620s] -- Looking for pthread_create in pthread - found
+[9.624s] -- Found Threads: TRUE  
+[11.960s] -- Configuring done
+[12.286s] -- Generating done
+[12.293s] -- Build files have been written to: /home/ubuntu/robot_ws/build/diffdrive_arduino
+[12.329s] Invoked command in '/home/ubuntu/robot_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/robot_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/robot_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/diffdrive_arduino
+[12.338s] Invoking command in '/home/ubuntu/robot_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/robot_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[12.515s] [35m[1mScanning dependencies of target fake_robot[0m
+[12.515s] [35m[1mScanning dependencies of target diffdrive_arduino[0m
+[12.913s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[12.914s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[12.949s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[12.950s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[13.970s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[24.533s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[24.635s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[25.832s] [100%] Built target fake_robot
+[25.891s] [100%] Built target diffdrive_arduino
+[25.932s] Invoked command in '/home/ubuntu/robot_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/robot_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[26.098s] Invoking command in '/home/ubuntu/robot_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/robot_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robot_ws/build/diffdrive_arduino
+[26.135s] -- Install configuration: ""
+[26.135s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml
+[26.136s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml
+[26.137s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[26.143s] -- Set runtime path of "/home/ubuntu/robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[26.144s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[26.149s] -- Set runtime path of "/home/ubuntu/robot_ws/install/diffdrive_arduino/lib/libfake_robot.so" to ""
+[26.149s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers
+[26.150s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[26.150s] -- Up-to-date: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino
+[26.150s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[26.151s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[26.152s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[26.154s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[26.155s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[26.156s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[26.157s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[26.158s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[26.159s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[26.160s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[26.161s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[26.162s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[26.163s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[26.164s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[26.165s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[26.166s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[26.168s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[26.169s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[26.170s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.171s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[26.172s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[26.173s] -- Installing: /home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[26.179s] Invoked command in '/home/ubuntu/robot_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/robot_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robot_ws/build/diffdrive_arduino

@@ -1,0 +1,71 @@
+[2.858s] Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/robot_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/ydlidar_ros2_driver
+[2.933s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.505s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.575s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.973s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.656s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.539s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.115s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.441s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[8.528s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.906s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.045s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.048s] -- Configured cppcheck include dirs: /home/ubuntu/robot_ws/src/ydlidar_ros2_driver/src
+[9.048s] -- Configured cppcheck exclude dirs and/or files: 
+[9.151s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.155s] -- Configured cpplint exclude dirs and/or files: 
+[9.164s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.191s] -- Added test 'lint_cmake' to check CMake code style
+[9.206s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.344s] -- Added test 'uncrustify' to check C / C++ code style
+[9.345s] -- Configured uncrustify additional arguments: 
+[9.366s] -- Added test 'xmllint' to check XML markup files
+[9.409s] -- Configuring done
+[9.509s] -- Generating done
+[9.521s] -- Build files have been written to: /home/ubuntu/robot_ws/build/ydlidar_ros2_driver
+[10.376s] Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/robot_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/ydlidar_ros2_driver
+[10.380s] Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[11.934s] [ 25%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[11.944s] [ 50%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[13.087s] [ 75%] Built target ydlidar_ros2_driver_node
+[13.101s] [100%] Built target ydlidar_ros2_driver_client
+[13.300s] Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[13.463s] Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/ydlidar_ros2_driver
+[13.509s] -- Install configuration: ""
+[13.512s] -- Execute custom install script
+[13.516s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[13.561s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[13.604s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[13.648s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[13.686s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[13.735s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[13.883s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[13.911s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[13.943s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[13.987s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[14.029s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[14.073s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[14.110s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[14.153s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[14.201s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[14.243s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[14.287s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[14.334s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[14.373s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[14.418s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[14.461s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[14.501s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[14.545s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[14.628s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[14.651s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[14.696s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[14.755s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[14.802s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[14.845s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[14.883s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[14.925s] -- Symlinking: /home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[15.301s] Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/ydlidar_ros2_driver

@@ -1,0 +1,36 @@
+[2.988s] Invoking command in '/home/ubuntu/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/sasa_bot -- -j4 -l4
+[3.216s] Invoked command in '/home/ubuntu/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/sasa_bot -- -j4 -l4
+[3.365s] Invoking command in '/home/ubuntu/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/sasa_bot
+[3.461s] -- Install configuration: ""
+[3.464s] -- Execute custom install script
+[3.468s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config/empty.yaml
+[3.470s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config/gazebo_params.yaml
+[3.471s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config/my_controllers.yaml
+[3.473s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/config/view_bot.rviz
+[3.476s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/camera.xacro
+[3.478s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/depth_camera.xacro
+[3.479s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/gazebo_control.xacro
+[3.481s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/inertial_macros.xacro
+[3.482s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/lidar.xacro
+[3.484s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/robot.urdf.xacro
+[3.485s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/robot_core.xacro
+[3.487s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/description/ros2_control.xacro
+[3.499s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/launch/launch_sim.launch.py
+[3.501s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/launch/rsp.launch.py
+[3.501s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/worlds/empty.world
+[3.502s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/ament_index/resource_index/package_run_dependencies/sasa_bot
+[3.521s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/ament_index/resource_index/parent_prefix_path/sasa_bot
+[3.524s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/environment/ament_prefix_path.sh
+[3.528s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/environment/ament_prefix_path.dsv
+[3.530s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/environment/path.sh
+[3.531s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/environment/path.dsv
+[3.532s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.bash
+[3.533s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.sh
+[3.533s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.zsh
+[3.551s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.dsv
+[3.553s] -- Symlinking: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.dsv
+[3.586s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/ament_index/resource_index/packages/sasa_bot
+[3.588s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/cmake/sasa_botConfig.cmake
+[3.590s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/cmake/sasa_botConfig-version.cmake
+[3.591s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.xml
+[4.497s] Invoked command in '/home/ubuntu/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/sasa_bot

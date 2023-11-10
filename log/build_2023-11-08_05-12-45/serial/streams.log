@@ -1,0 +1,44 @@
+[2.929s] Invoking command in '/home/ubuntu/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/robot_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/serial
+[5.063s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.068s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.068s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.070s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.070s] -- Configuring done
+[5.071s] -- Generating done
+[5.071s] -- Build files have been written to: /home/ubuntu/robot_ws/build/serial
+[5.095s] Invoked command in '/home/ubuntu/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/robot_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/serial
+[5.108s] Invoking command in '/home/ubuntu/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/serial -- -j4 -l4
+[5.619s] [ 28%] Built target serial
+[5.643s] [ 42%] Built target gtest
+[5.682s] [ 57%] Built target gtest_main
+[5.974s] [ 71%] Built target serial_example
+[5.991s] [ 85%] Built target serial-test
+[6.003s] [100%] Built target serial-test-timer
+[6.070s] Invoked command in '/home/ubuntu/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/serial -- -j4 -l4
+[6.360s] Invoking command in '/home/ubuntu/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/serial
+[6.415s] -- Install configuration: ""
+[6.419s] -- Execute custom install script
+[6.425s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/lib/libserial.a
+[6.482s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/include/serial/serial.h
+[6.542s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/include/serial/v8stdint.h
+[6.615s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/environment/library_path.sh
+[6.688s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/environment/library_path.dsv
+[6.748s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[6.801s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[6.848s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[6.897s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[6.950s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/environment/path.sh
+[6.998s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/environment/path.dsv
+[7.056s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/local_setup.bash
+[7.101s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/local_setup.sh
+[7.144s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/local_setup.zsh
+[7.194s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/local_setup.dsv
+[7.236s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/package.dsv
+[7.281s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[7.325s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.371s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[7.419s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[7.463s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[7.510s] -- Symlinking: /home/ubuntu/robot_ws/install/serial/share/serial/package.xml
+[7.582s] Invoked command in '/home/ubuntu/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/serial

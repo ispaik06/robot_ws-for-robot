@@ -1,0 +1,18 @@
+[6.787s] Invoking command in '/home/ubuntu/robot_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/home/ubuntu/robot_ws/install/diffdrive_arduino:/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/sasa_bot PYTHONPATH=/home/ubuntu/robot_ws/build/serial_motor_demo/prefix_override:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/serial_motor_demo:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/joy_tester:/home/ubuntu/robot_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[8.428s] running develop
+[9.014s] running egg_info
+[9.015s] writing serial_motor_demo.egg-info/PKG-INFO
+[9.016s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[9.017s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[9.017s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[9.018s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[9.143s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[9.146s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[9.295s] running build_ext
+[9.296s] Creating /home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[9.299s] Installing driver script to /home/ubuntu/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[9.300s] Installing gui script to /home/ubuntu/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[9.302s] 
+[9.302s] Installed /home/ubuntu/robot_ws/build/serial_motor_demo
+[9.303s] running install_data
+[9.424s] Invoked command in '/home/ubuntu/robot_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/home/ubuntu/robot_ws/install/diffdrive_arduino:/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/sasa_bot PYTHONPATH=/home/ubuntu/robot_ws/build/serial_motor_demo/prefix_override:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/serial_motor_demo:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/joy_tester:/home/ubuntu/robot_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/serial_motor_demo/build --no-deps install_data

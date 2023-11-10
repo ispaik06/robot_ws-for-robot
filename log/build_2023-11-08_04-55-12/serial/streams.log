@@ -1,0 +1,85 @@
+[2.895s] Invoking command in '/home/ubuntu/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/robot_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/serial
+[4.986s] -- The C compiler identification is GNU 9.4.0
+[4.986s] -- The CXX compiler identification is GNU 9.4.0
+[4.988s] -- Check for working C compiler: /usr/bin/cc
+[5.464s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.473s] -- Detecting C compiler ABI info
+[6.082s] -- Detecting C compiler ABI info - done
+[6.144s] -- Detecting C compile features
+[6.147s] -- Detecting C compile features - done
+[6.171s] -- Check for working CXX compiler: /usr/bin/c++
+[6.780s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.783s] -- Detecting CXX compiler ABI info
+[7.300s] -- Detecting CXX compiler ABI info - done
+[7.333s] -- Detecting CXX compile features
+[7.334s] -- Detecting CXX compile features - done
+[7.376s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.579s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.580s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.227s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[9.317s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[9.355s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.367s] -- Looking for pthread.h
+[9.756s] -- Looking for pthread.h - found
+[9.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.099s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.102s] -- Check if compiler accepts -pthread
+[10.498s] -- Check if compiler accepts -pthread - yes
+[10.502s] -- Found Threads: TRUE  
+[10.944s] -- Configuring done
+[11.051s] -- Generating done
+[11.078s] -- Build files have been written to: /home/ubuntu/robot_ws/build/serial
+[11.685s] Invoked command in '/home/ubuntu/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/robot_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/serial
+[11.698s] Invoking command in '/home/ubuntu/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/serial -- -j4 -l4
+[11.901s] [35m[1mScanning dependencies of target serial[0m
+[11.920s] [35m[1mScanning dependencies of target gtest_main[0m
+[11.955s] [35m[1mScanning dependencies of target gtest[0m
+[11.995s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[12.024s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[12.099s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.114s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.284s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[17.285s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[17.442s] [ 42%] Built target gtest_main
+[17.848s] [ 50%] [32m[1mLinking CXX static library libserial.a[0m
+[17.986s] [ 50%] Built target serial
+[18.028s] [35m[1mScanning dependencies of target serial_example[0m
+[18.076s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[19.502s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[19.818s] [ 64%] Built target serial_example
+[26.696s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[27.020s] [ 71%] Built target gtest
+[27.060s] [35m[1mScanning dependencies of target serial-test-timer[0m
+[27.061s] [35m[1mScanning dependencies of target serial-test[0m
+[27.120s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[27.121s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[30.301s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[30.873s] [ 92%] Built target serial-test-timer
+[30.948s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[31.489s] [100%] Built target serial-test
+[31.530s] Invoked command in '/home/ubuntu/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/serial -- -j4 -l4
+[31.711s] Invoking command in '/home/ubuntu/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/serial
+[31.746s] -- Install configuration: ""
+[31.746s] -- Installing: /home/ubuntu/robot_ws/install/serial/lib/libserial.a
+[31.749s] -- Installing: /home/ubuntu/robot_ws/install/serial/include/serial/serial.h
+[31.750s] -- Installing: /home/ubuntu/robot_ws/install/serial/include/serial/v8stdint.h
+[31.751s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/environment/library_path.sh
+[31.752s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/environment/library_path.dsv
+[31.753s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[31.755s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[31.756s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[31.757s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[31.757s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/environment/path.sh
+[31.758s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/environment/path.dsv
+[31.759s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/local_setup.bash
+[31.760s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/local_setup.sh
+[31.761s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/local_setup.zsh
+[31.762s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/local_setup.dsv
+[31.763s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/package.dsv
+[31.764s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[31.765s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.766s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[31.767s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[31.768s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[31.769s] -- Installing: /home/ubuntu/robot_ws/install/serial/share/serial/package.xml
+[31.776s] Invoked command in '/home/ubuntu/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/serial

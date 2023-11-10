@@ -1,0 +1,597 @@
+[9.322s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[9.322s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb56f88b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb56f88b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb5321be0>)
+[9.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[9.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[9.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[9.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[9.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[9.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[9.741s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/robot_ws'
+[9.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[9.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[9.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[9.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[9.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[9.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[9.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[9.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[9.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[9.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[9.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[9.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[9.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[9.790s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[9.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[9.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[9.791s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[9.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[9.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[9.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[9.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[9.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[9.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[9.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[9.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[9.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[9.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[9.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[9.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[9.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[9.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[9.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[9.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[9.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[9.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[9.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[9.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[9.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[9.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[9.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[9.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[9.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[9.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[9.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[9.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[9.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[9.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[9.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[9.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[9.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[9.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[9.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[9.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[9.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[9.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[9.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[9.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[9.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore'
+[9.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore_ament_install'
+[9.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_pkg']
+[9.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_pkg'
+[9.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_meta']
+[9.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_meta'
+[9.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ros']
+[9.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ros'
+[9.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[9.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extensions ['ignore', 'ignore_ament_install']
+[9.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'ignore'
+[9.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'ignore_ament_install'
+[9.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extensions ['colcon_pkg']
+[9.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'colcon_pkg'
+[9.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extensions ['colcon_meta']
+[9.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'colcon_meta'
+[9.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extensions ['ros']
+[9.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'ros'
+[9.894s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sasa_bot' with type 'ros.ament_cmake' and name 'sasa_bot'
+[9.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[9.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[9.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[9.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[9.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[9.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[9.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[9.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[9.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[9.899s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[9.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[9.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[9.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[9.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[9.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[9.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[9.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[9.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[9.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[9.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[9.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[9.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[9.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[9.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[9.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[9.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[9.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[9.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[9.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[9.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[9.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[9.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[9.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[9.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[9.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[9.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[9.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[9.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[9.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[9.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[9.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[9.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[9.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[9.911s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[9.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[9.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[9.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[9.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[9.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[9.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[9.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[9.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[9.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[9.915s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[9.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[9.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[9.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[9.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[9.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[10.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[10.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[11.125s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/ubuntu/robot_ws/install
+[11.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/foxy
+[11.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[11.933s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[11.933s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[11.933s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.933s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[11.933s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[11.934s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[11.934s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[11.934s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[11.934s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.934s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws/install/joy_tester', 'merge_install': False, 'path': '/home/ubuntu/robot_ws/src/joy_tester', 'symlink_install': True, 'test_result_base': None}
+[12.092s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_args' from command line to 'None'
+[12.092s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_target' from command line to 'None'
+[12.092s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.092s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[12.092s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_clean_first' from command line to 'False'
+[12.093s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_force_configure' from command line to 'False'
+[12.093s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'ament_cmake_args' from command line to 'None'
+[12.093s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[12.093s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.093s] DEBUG:colcon.colcon_core.verb:Building package 'sasa_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws/build/sasa_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws/install/sasa_bot', 'merge_install': False, 'path': '/home/ubuntu/robot_ws/src/sasa_bot', 'symlink_install': True, 'test_result_base': None}
+[12.287s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[12.287s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[12.287s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.287s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[12.287s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[12.287s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[12.287s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[12.287s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[12.288s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.288s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws/install/serial', 'merge_install': False, 'path': '/home/ubuntu/robot_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[12.445s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[12.445s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[12.445s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.445s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[12.445s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[12.445s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[12.446s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[12.446s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[12.446s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.446s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/ubuntu/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[12.611s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[12.611s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[12.611s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.611s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[12.611s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[12.612s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[12.612s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[12.612s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[12.612s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.612s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ubuntu/robot_ws/src/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[12.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[12.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[12.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[12.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[12.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[12.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[12.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[12.771s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.771s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/ubuntu/robot_ws/src/YDLidar-SDK', 'symlink_install': True, 'test_result_base': None}
+[12.933s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[12.933s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[12.933s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.933s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[12.933s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[12.933s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[12.934s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[12.934s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[12.934s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.934s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/ubuntu/robot_ws/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[13.089s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[13.089s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[13.090s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.090s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[13.090s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[13.090s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[13.090s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[13.090s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[13.090s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.090s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/ubuntu/robot_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[13.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[13.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[13.409s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws/src/serial' with build type 'ament_cmake'
+[13.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws/src/serial'
+[13.582s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[13.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.104s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[14.106s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[14.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.787s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/robot_ws/src/joy_tester' with build type 'ament_python'
+[14.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[14.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[14.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[14.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[15.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.636s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws/src/sasa_bot' with build type 'ament_cmake'
+[15.637s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws/src/sasa_bot'
+[15.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/serial -- -j4 -l4
+[16.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[17.759s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/robot_ws/src/joy_tester'
+[17.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/sasa_bot -- -j4 -l4
+[18.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/serial -- -j4 -l4
+[18.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[18.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/sasa_bot -- -j4 -l4
+[18.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/serial
+[18.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/sasa_bot
+[19.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[19.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/serial
+[19.321s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial' for CMake module files
+[19.324s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial' for CMake config files
+[19.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[19.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[19.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[19.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[19.578s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/lib'
+[19.579s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/bin'
+[19.580s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/lib/pkgconfig/serial.pc'
+[19.581s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/lib/python3.8/site-packages'
+[19.582s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/bin'
+[19.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial/share/serial/package.ps1'
+[19.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/serial/share/serial/package.dsv'
+[19.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial/share/serial/package.sh'
+[19.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial/share/serial/package.bash'
+[19.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial/share/serial/package.zsh'
+[19.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/serial/share/colcon-core/packages/serial)
+[19.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sasa_bot)
+[19.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/sasa_bot
+[20.075s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot' for CMake module files
+[20.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot' for CMake config files
+[20.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('sasa_bot', 'cmake_prefix_path')
+[20.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.ps1'
+[20.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.dsv'
+[20.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.sh'
+[20.371s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot/bin'
+[20.372s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot/lib/pkgconfig/sasa_bot.pc'
+[20.373s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot/lib/python3.8/site-packages'
+[20.375s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot/bin'
+[20.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.ps1'
+[20.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.dsv'
+[20.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.sh'
+[20.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.bash'
+[20.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.zsh'
+[20.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/sasa_bot/share/colcon-core/packages/sasa_bot)
+[20.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/serial_motor_demo_msgs
+[21.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[21.636s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial' for CMake module files
+[21.640s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial' for CMake config files
+[21.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[22.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[22.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[22.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[22.056s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/lib'
+[22.057s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/bin'
+[22.058s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/lib/pkgconfig/serial.pc'
+[22.059s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/lib/python3.8/site-packages'
+[22.060s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial/bin'
+[22.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial/share/serial/package.ps1'
+[22.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/serial/share/serial/package.dsv'
+[22.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial/share/serial/package.sh'
+[22.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial/share/serial/package.bash'
+[22.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial/share/serial/package.zsh'
+[22.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/serial/share/colcon-core/packages/serial)
+[22.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/joy_tester': PYTHONPATH=/home/ubuntu/robot_ws/build/joy_tester/prefix_override:/home/ubuntu/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/joy_tester/build --no-deps install_data
+[22.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[22.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws/src/ydlidar_ros2_driver'
+[22.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[24.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/serial_motor_demo_msgs
+[24.596s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs' for CMake module files
+[24.601s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs' for CMake config files
+[24.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[24.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[24.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[24.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[24.943s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib'
+[24.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[25.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[25.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[25.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[25.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/bin'
+[25.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[25.317s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[25.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[25.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[25.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[25.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[25.728s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/bin'
+[26.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[26.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[26.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[26.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[26.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[26.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[26.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sasa_bot)
+[26.928s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot' for CMake module files
+[26.931s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot' for CMake config files
+[26.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('sasa_bot', 'cmake_prefix_path')
+[27.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.ps1'
+[27.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.dsv'
+[27.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.sh'
+[27.120s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot/bin'
+[27.120s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot/lib/pkgconfig/sasa_bot.pc'
+[27.121s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot/lib/python3.8/site-packages'
+[27.121s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/sasa_bot/bin'
+[27.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.ps1'
+[27.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.dsv'
+[27.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.sh'
+[27.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.bash'
+[27.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/sasa_bot/share/sasa_bot/package.zsh'
+[27.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/sasa_bot/share/colcon-core/packages/sasa_bot)
+[27.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws/src/YDLidar-SDK'
+[27.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath_develop')
+[28.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/joy_tester' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/build/joy_tester/prefix_override:/home/ubuntu/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/joy_tester/build --no-deps install_data
+[28.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.ps1'
+[28.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.dsv'
+[28.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.sh'
+[28.396s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/joy_tester' for CMake module files
+[28.398s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/joy_tester' for CMake config files
+[28.400s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/joy_tester/lib'
+[28.401s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/joy_tester/bin'
+[28.401s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[28.402s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/joy_tester/lib/python3.8/site-packages'
+[28.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[28.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[28.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[28.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[28.582s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/joy_tester/bin'
+[28.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[28.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/package.ps1'
+[28.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/package.dsv'
+[28.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/package.sh'
+[28.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/package.bash'
+[28.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/joy_tester/share/joy_tester/package.zsh'
+[28.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/joy_tester/share/colcon-core/packages/joy_tester)
+[28.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[29.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[29.268s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs' for CMake module files
+[29.271s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs' for CMake config files
+[29.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[29.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[29.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[29.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[29.453s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib'
+[29.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[29.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[29.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[29.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[29.622s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/bin'
+[29.622s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[29.623s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[29.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[29.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[29.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[29.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[29.800s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/bin'
+[29.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[29.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[29.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[29.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[29.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[29.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[29.980s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[29.980s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws/src/diffdrive_arduino'
+[30.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.666s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/robot_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[30.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[30.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[30.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[30.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[31.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/ubuntu/robot_ws/build/ydlidar_sdk -- -j4 -l4
+[31.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[31.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:/home/ubuntu/robot_ws/install/diffdrive_arduino:/home/ubuntu/robot_ws/install/sasa_bot:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[32.938s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/robot_ws/src/serial_motor_demo/serial_motor_demo'
+[33.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:/home/ubuntu/robot_ws/install/diffdrive_arduino:/home/ubuntu/robot_ws/install/sasa_bot:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[33.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ubuntu/robot_ws/build/ydlidar_sdk -- -j4 -l4
+[33.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/ydlidar_ros2_driver
+[33.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[33.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/ydlidar_ros2_driver
+[34.111s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver' for CMake module files
+[34.115s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver' for CMake config files
+[34.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[34.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[34.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[34.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[34.336s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/lib'
+[34.337s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/bin'
+[34.337s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[34.338s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[34.339s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/bin'
+[34.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[34.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[34.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[34.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[34.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[34.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[34.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:/home/ubuntu/robot_ws/install/diffdrive_arduino:/home/ubuntu/robot_ws/install/sasa_bot:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/diffdrive_arduino
+[34.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/ubuntu/robot_ws/build/ydlidar_sdk
+[34.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[34.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ubuntu/robot_ws/build/ydlidar_sdk
+[35.049s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_sdk' for CMake module files
+[35.051s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_sdk' for CMake config files
+[35.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[35.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[35.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[35.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[35.310s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_sdk/lib'
+[35.310s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_sdk/bin'
+[35.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[35.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[35.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[35.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[35.547s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[35.549s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_sdk/lib/python3.8/site-packages'
+[35.550s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_sdk/bin'
+[35.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[35.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[35.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[35.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[36.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[36.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[36.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[36.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[36.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[36.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[36.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[36.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:/home/ubuntu/robot_ws/install/diffdrive_arduino:/home/ubuntu/robot_ws/install/sasa_bot:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/diffdrive_arduino
+[36.201s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino' for CMake module files
+[36.204s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino' for CMake config files
+[36.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[36.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[36.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[36.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[36.376s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/lib'
+[36.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[36.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[36.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[36.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[36.544s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/bin'
+[36.544s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[36.545s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/lib/python3.8/site-packages'
+[36.546s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/bin'
+[36.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[36.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[36.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[36.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[36.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[36.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[36.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[37.092s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver' for CMake module files
+[37.095s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver' for CMake config files
+[37.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[37.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[37.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[37.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[37.268s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/lib'
+[37.268s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/bin'
+[37.269s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[37.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[37.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/bin'
+[37.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[37.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[37.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[37.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[37.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[37.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[37.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/home/ubuntu/robot_ws/install/diffdrive_arduino:/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/sasa_bot PYTHONPATH=/home/ubuntu/robot_ws/build/serial_motor_demo/prefix_override:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/serial_motor_demo:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/joy_tester:/home/ubuntu/robot_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[37.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[38.074s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino' for CMake module files
+[38.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino' for CMake config files
+[38.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[38.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[38.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[38.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[38.433s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/lib'
+[38.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[38.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[38.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[38.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[38.759s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/bin'
+[38.759s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[38.760s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/lib/python3.8/site-packages'
+[38.761s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/diffdrive_arduino/bin'
+[38.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[38.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[38.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[38.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[38.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[38.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[40.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[40.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws/install/serial_motor_demo_msgs:/home/ubuntu/robot_ws/install/ydlidar_sdk:/home/ubuntu/robot_ws/install/ydlidar_ros2_driver:/home/ubuntu/robot_ws/install/diffdrive_arduino:/home/ubuntu/robot_ws/install/serial:/home/ubuntu/robot_ws/install/sasa_bot PYTHONPATH=/home/ubuntu/robot_ws/build/serial_motor_demo/prefix_override:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/serial_motor_demo:/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/joy_tester:/home/ubuntu/robot_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[40.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[40.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[40.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[40.436s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo' for CMake module files
+[40.439s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo' for CMake config files
+[40.441s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo/lib'
+[40.442s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo/bin'
+[40.442s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[40.443s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages'
+[40.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[40.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[40.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[40.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[40.608s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws/install/serial_motor_demo/bin'
+[40.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[40.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[40.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[40.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[40.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[40.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[40.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[40.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[40.792s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.980s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.981s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.981s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[41.039s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[41.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws/install/local_setup.ps1'
+[41.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robot_ws/install/_local_setup_util_ps1.py'
+[41.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws/install/setup.ps1'
+[41.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws/install/local_setup.sh'
+[41.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robot_ws/install/_local_setup_util_sh.py'
+[41.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws/install/setup.sh'
+[41.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws/install/local_setup.bash'
+[41.612s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws/install/setup.bash'
+[41.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws/install/local_setup.zsh'
+[41.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws/install/setup.zsh'
